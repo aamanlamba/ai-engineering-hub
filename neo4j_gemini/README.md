@@ -14,10 +14,11 @@ API Keys
 
 - Paste your API keys by creating a `.env`
 - Refer `.env.example` file
+- Establish Gemini billing if needed
 
 **Install Dependencies**:
    Ensure you have Python 3.11 or later installed.
 
 ```bash
-   pip install langchain langchain-community langchain-neo4j langchain_google_vertexai
+   pip install langchain langchain-community tenacity langchain-neo4j langchain_google_vertexai google-genai langchain-openai google-cloud-aiplatform
 ```
